@@ -22,11 +22,11 @@
   .body{padding:66px 24px 26px;text-align:center;}
   .name{font-size:23px;font-weight:800;color:var(--navy);}
   .role{font-size:14px;color:var(--muted);margin-top:3px;}
-  .actions{display:flex;margin:20px 0 4px;border:1px solid var(--line);border-radius:14px;overflow:hidden;}
-  .actions a{flex:1;padding:12px 0;text-decoration:none;color:var(--navy);font-size:13px;font-weight:600;}
+  .actions{display:flex;margin-top:16px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .actions a{flex:1;padding:13px 0;text-decoration:none;color:var(--navy);font-size:13px;font-weight:600;}
   .actions a+a{border-left:1px solid var(--line);}
   .actions svg{display:block;margin:0 auto 5px;}
-  .summary{margin:16px 0;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  .summary{margin:0;padding:12px 0;border-bottom:1px solid var(--line);
            font-size:14px;color:var(--ink);font-weight:600;}
   .rows{text-align:left;}
   .row{display:flex;gap:13px;align-items:flex-start;padding:13px 2px;border-bottom:1px solid var(--line);
@@ -35,7 +35,10 @@
   .row .v{font-size:14.5px;line-height:1.4;word-break:break-word;}
   .row .sub{color:var(--muted);font-size:12px;}
   .row .map{display:inline-block;margin-top:3px;font-size:12.5px;color:var(--teal);text-decoration:none;font-weight:600;}
-  .note{margin-top:18px;font-size:12px;line-height:1.55;color:var(--muted);text-align:left;}
+  .note{margin-top:22px;padding:16px 17px;background:#f6f7fb;border-left:3px solid var(--teal);
+        border-radius:10px;text-align:left;font-size:13.5px;line-height:1.62;color:#41496a;}
+  .note b{display:block;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;
+          color:var(--navy);margin-bottom:6px;}
 </style>
 </head>
 <body>
@@ -65,7 +68,7 @@
           <a class="map" href="https://maps.app.goo.gl/dyFerdD8JTC5kaMw9" target="_blank" rel="noopener">Show on map &rarr;</a></div></div>
         <a class="row" href="https://changer.ae" target="_blank" rel="noopener"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#11053b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span><div class="v">changer.ae</div></a>
       </div>
-      <p class="note">Changer.ae is a secure &amp; trusted virtual asset custodian service based in the United Arab Emirates, regulated by the Abu Dhabi Global Market FSRA (ADGM). We safeguard and manage your digital assets with an easy, reliable and robust solution to help protect and grow your crypto investment.</p>
+      <div class="note">Changer.ae is a secure &amp; trusted virtual asset custodian service based in the United Arab Emirates, regulated by the Abu Dhabi Global Market FSRA (ADGM). We safeguard and manage your digital assets with an easy, reliable and robust solution to help protect and grow your crypto investment.</div>
     </div>
   </div>
 </body>
